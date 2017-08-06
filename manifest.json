@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Quick URL Transfer",
+  "description": "Sends the URL of the current page to your phone so it can be easily opened",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Quick URL Transfer"
+  },
+  "permissions": [
+    "activeTab",
+    "notifications",
+    "https://ajax.googleapis.com/"
+  ]
+}
